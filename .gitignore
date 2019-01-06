@@ -8,6 +8,7 @@ yarn-error.log*
 # Compiled files
 /lib
 /coverage
+/docs
 
 # Runtime data
 pids

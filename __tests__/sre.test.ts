@@ -10,12 +10,14 @@ describe('Test functions exported', () => {
     });
   it('replaceAround', () => {
     expect(replaceAround('toto','t','o', 'o')).toEqual('oooo');
+    expect(replaceAround("« Hello world ! »", " ", `&nbsp;`, ["«", "!", "»"])).toEqual('«&nbsp;Hello world&nbsp;!&nbsp;»');
     });
   it('replaceBefore', () => {
     expect(replaceBefore('toto','t','o', 'o')).toEqual('oooo');
     });
   it('replaceOnRegex', () => {
     expect(replaceOnRegex('toto',/t/g,'o')).toEqual('oooo');
+    expect(replaceOnRegex('Hello world !', /!/g, '!!!')).toEqual('Hello world !!!');
     });
 }),
 
