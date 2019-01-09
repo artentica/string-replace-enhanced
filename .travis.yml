@@ -11,7 +11,7 @@ stages:
   - test
   - codecov
   - changelog
-  - deploy to production
+  - deploy to production5
 
 jobs:
   include:
@@ -24,7 +24,7 @@ jobs:
     - stage: changelog
       script: npx semantic-release
       if: branch = master
-    - stage: deploy to production
+    - stage: deploy to production5
       script: npm run build:doc
       if: branch = master
       deploy:
