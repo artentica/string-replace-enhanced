@@ -3,10 +3,6 @@ node_js:
   - '9'
 cache: ~/.npm
 
-branches:
-  only:
-    - master
-
 install:
   - npm install
 
@@ -27,8 +23,10 @@ jobs:
       script: npx codecov --token=$CODECOV_TOKEN
     - stage: changelog
       script: npx semantic-release
+      if: branch = master
     - stage: deploy to production
       script: npm run build:doc
+      if: branch = master
       deploy:
         - provider: pages
           skip-cleanup: true

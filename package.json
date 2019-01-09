@@ -1,7 +1,7 @@
 {
   "name": "string-replace-enhanced",
   "version": "1.0.0",
-  "description": "A package to go further with string replace",
+  "description": "A oui to go further with string replace",
   "main": "lib/sre.js",
   "types": "lib/index.d.ts",
   "scripts": {
