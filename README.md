@@ -44,7 +44,7 @@ const stringReplaceEnhanced = require('string-replace-enhanced')
 In a browser:
 
 ```html
-<script src="https://unpkg.com/string-replace-enhanced@latest"></script>
+<script src="https://unpkg.com/string-replace-enhanced@latest/lib/sre.min.js"></script>
 <script>
   /* stringReplaceEnhanced is available here */
   /* in object style */
