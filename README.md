@@ -19,6 +19,9 @@
   <a href="https://codecov.io/gh/artentica/string-replace-enhanced">
     <img alt="codecov" src="https://img.shields.io/codecov/c/github/artentica/string-replace-enhanced.svg">
   </a>
+  <a class="badge-align" href="https://www.codacy.com/app/artentica/string-replace-enhanced?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=artentica/string-replace-enhanced&amp;utm_campaign=Badge_Grade">
+    <img alt="Codacy" src="https://api.codacy.com/project/badge/Grade/e09a761c88be427ba0a43713055b8ce9"/>
+  </a>
   <a href="#badge">
     <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/string-replace-enhanced.svg">
   </a>
