@@ -23,10 +23,12 @@ jobs:
       script: npm run test && npx codecov --token=$CODECOV_TOKEN
     - stage: release
       if: branch = master
+      if: type != pull_request
       script: npm run build && npx semantic-release
     - stage: deploy doc site
       script: npm run build:doc && touch ./docs/.nojekyll
       if: branch = master
+      if: type != pull_request
       deploy:
         - provider: pages
           skip-cleanup: true
