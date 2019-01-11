@@ -35,9 +35,9 @@
   "author": "Riouallon Vincent",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artentica/non-breaking-spaces/issues"
+    "url": "https://github.com/artentica/string-replace-enhanced/issues"
   },
-  "homepage": "https://github.com/artentica/non-breaking-spaces#readme",
+  "homepage": "https://github.com/artentica/string-replace-enhanced#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.7",
