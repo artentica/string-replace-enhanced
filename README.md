@@ -1,26 +1,29 @@
 <h1 align="center" style="border-bottom: none;">📝✏️string-replace-enhanced</h1>
 <h3 align="center">A package to go further with string replace</h3>
 <p align="center">
-  <a href="https://codecov.io/gh/artentica/string-replace-enhanced">
-    <img alt="codecov" src="https://img.shields.io/codecov/c/github/artentica/string-replace-enhanced.svg">
-  </a>
-  <a href="https://travis-ci.com/artentica/string-replace-enhanced">
-    <img alt="Travis" src="https://travis-ci.com/artentica/string-replace-enhanced.svg?branch=master">
+  <a href="https://opensource.org/licenses/MIT">
+    <img alt="MIT licenses" src="https://img.shields.io/badge/License-MIT-yellow.svg">
   </a>
   <a href="https://snyk.io/test/github/artentica/string-replace-enhanced?targetFile=package.json">
     <img alt="snyk" src="https://snyk.io/test/github/artentica/string-replace-enhanced/badge.svg?targetFile=package.json">
   </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img alt="MIT licenses" src="https://img.shields.io/badge/License-MIT-yellow.svg">
-  </a>
   <a href="http://badge.fury.io/js/string-replace-enhanced">
     <img alt="NPM version" src="https://badge.fury.io/js/string-replace-enhanced.svg">
   </a>
+  <a href="http://badge.fury.io/js/string-replace-enhanced">
+    <img alt="NPM dependencies" src="https://img.shields.io/david/artentica/string-replace-enhanced.svg">
+  </a>
+  <a href="https://travis-ci.com/artentica/string-replace-enhanced">
+    <img alt="Travis" src="https://travis-ci.com/artentica/string-replace-enhanced.svg?branch=master">
+  </a>
+  <a href="https://codecov.io/gh/artentica/string-replace-enhanced">
+    <img alt="codecov" src="https://img.shields.io/codecov/c/github/artentica/string-replace-enhanced.svg">
+  </a>
+  <a href="#badge">
+    <img alt="bundlephobia" src="https://img.shields.io/bundlephobia/min/string-replace-enhanced.svg">
+  </a>
   <a href="#badge">
     <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
-  </a>
-  <a href="http://badge.fury.io/js/string-replace-enhanced">
-    <img alt="NPM version" src="https://img.shields.io/david/artentica/string-replace-enhanced.svg">
   </a>
 </p>
 
