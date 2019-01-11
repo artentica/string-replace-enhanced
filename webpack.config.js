@@ -4,6 +4,7 @@ module.exports = {
   entry: {
     'sre.min': './src/sre.ts',
   },
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, 'lib'),
     filename: '[name].js',
