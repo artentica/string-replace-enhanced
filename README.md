@@ -31,6 +31,8 @@
 
 ## Installation
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a638c7f9f9e94852bc83c7094cd95e63)](https://app.codacy.com/app/artentica/string-replace-enhanced?utm_source=github.com&utm_medium=referral&utm_content=artentica/string-replace-enhanced&utm_campaign=Badge_Grade_Dashboard)
+
 With NodeJS:
 
     npm install -S string-replace-enhanced
