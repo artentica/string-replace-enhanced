@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/artentica/string-replace-enhanced/compare/v1.0.1...v1.0.2) (2019-01-11)
+
+
+### Bug Fixes
+
+* **readme:** add badge bundlephobia and fix wrong alt img ([d1f2bdb](https://github.com/artentica/string-replace-enhanced/commit/d1f2bdb))
+
 # 1.0.1 (2019-01-10)
 
 
