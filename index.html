@@ -97,13 +97,17 @@
 				</p>
 				<p><strong>string-replace-enhanced</strong> allow you to go futher with the command replace for string in javascript. You have two options, use the object and implement his settings or use the functions in a standalone way.</p>
 				<h2 id="installation">Installation</h2>
-				<p>With NodeJS:</p>
+				<p>Using npm:</p>
 				<pre><code>npm <span class="hljs-keyword">install</span> -S <span class="hljs-keyword">string</span>-<span class="hljs-keyword">replace</span>-enhanced</code></pre><p>... and then:</p>
 				<pre><code class="language-javascript"><span class="hljs-keyword">import</span> stringReplaceEnhanced <span class="hljs-keyword">from</span> <span class="hljs-string">'string-replace-enhanced'</span>
 <span class="hljs-comment">//  or</span>
 <span class="hljs-keyword">import</span> {replaceBefore, replaceAfter, replaceAround, replace, replaceRegex} <span class="hljs-keyword">from</span> <span class="hljs-string">'string-replace-enhanced'</span>
 <span class="hljs-comment">//  or</span>
-<span class="hljs-keyword">const</span> stringReplaceEnhanced = <span class="hljs-built_in">require</span>(<span class="hljs-string">'string-replace-enhanced'</span>)</code></pre>
+<span class="hljs-keyword">const</span> {<span class="hljs-attr">default</span>: stringReplaceEnhanced} = <span class="hljs-built_in">require</span>(<span class="hljs-string">'string-replace-enhanced'</span>)</code></pre>
+				<p>In NodeJS:</p>
+				<pre><code class="language-javascript"><span class="hljs-keyword">const</span> {<span class="hljs-attr">default</span> : stringReplaceEnhanced} = <span class="hljs-built_in">require</span>(<span class="hljs-string">'string-replace-enhanced'</span>)
+<span class="hljs-comment">//  or</span>
+<span class="hljs-keyword">import</span> {replaceBefore, replaceAfter, replaceAround, replace, replaceRegex} <span class="hljs-keyword">from</span> <span class="hljs-string">'string-replace-enhanced'</span></code></pre>
 				<p>In a browser:</p>
 				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/string-replace-enhanced@latest/lib/sre.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
