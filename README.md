@@ -45,7 +45,7 @@ import stringReplaceEnhanced from 'string-replace-enhanced'
 //  or
 import {replaceBefore, replaceAfter, replaceAround, replace, replaceRegex} from 'string-replace-enhanced'
 //  or
-const stringReplaceEnhanced = require('string-replace-enhanced')
+const {default: stringReplaceEnhanced} = require('string-replace-enhanced')
 ```
 
 In NodeJS:
