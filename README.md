@@ -34,7 +34,7 @@
 
 ## Installation
 
-With NodeJS:
+Using npm:
 
     npm install -S string-replace-enhanced
 
@@ -47,6 +47,15 @@ import {replaceBefore, replaceAfter, replaceAround, replace, replaceRegex} from 
 //  or
 const stringReplaceEnhanced = require('string-replace-enhanced')
 ```
+
+In NodeJS:
+
+```javascript
+const {default : stringReplaceEnhanced} = require('string-replace-enhanced')
+//  or
+import {replaceBefore, replaceAfter, replaceAround, replace, replaceRegex} from 'string-replace-enhanced'
+```
+
 In a browser:
 
 ```html
