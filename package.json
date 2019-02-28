@@ -12,7 +12,7 @@
     "test:watch": "jest --config jest.config.json --watch",
     "commit": "git-cz",
     "build": "webpack --config webpack.config.js && tsc",
-    "build:doc": "typedoc ./src --module commonjs",
+    "build:doc": "typedoc --out ./docs ./src --module commonjs",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint --fix --project tsconfig.json",
     "semantic-release": "semantic-release"
