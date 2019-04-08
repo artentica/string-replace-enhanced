@@ -23,7 +23,7 @@ import { joinOnOrCommandRegex, sanitizeRegex, toArray } from './utils';
     ): string {
       return str.replace(
         new RegExp(
-          `(${sanitizeRegex(toReplace)}|${sanitizeRegex(replacer)})(?=[(${joinOnOrCommandRegex(toArray(before))})])`,
+          `(${sanitizeRegex(toReplace)}|${sanitizeRegex(replacer)})(?=[${joinOnOrCommandRegex(toArray(before))}])`,
           'g',
         ),
         replacer,
@@ -48,7 +48,7 @@ import { joinOnOrCommandRegex, sanitizeRegex, toArray } from './utils';
   export function replaceAfter(str: string, toReplace: string, replacer: string, after: ReadonlyArray<string> | string): string {
       return str.replace(
         new RegExp(
-          `(?<=[(${joinOnOrCommandRegex(toArray(after))})])(${sanitizeRegex(toReplace)}|${sanitizeRegex(replacer)})`,
+          `(?<=[${joinOnOrCommandRegex(toArray(after))}])(${sanitizeRegex(toReplace)}|${sanitizeRegex(replacer)})`,
           'g',
         ),
         replacer,
