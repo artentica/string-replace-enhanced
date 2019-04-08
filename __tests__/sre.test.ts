@@ -61,6 +61,7 @@ describe('Test sre Class', () => {
       ${'  | '}              | ${'|'}       | ${'o'}       | ${' '}       | ${'  o '}
       ${'  | '}              | ${'|'}       | ${'o'}       | ${'7'}       | ${'  | '}
       ${'Chaussettes !'}     | ${undefined} | ${undefined} | ${undefined} | ${'Chaussettes&nbsp;!'}
+      ${' (Chaussettes) !'} | ${undefined} | ${undefined} | ${undefined} | ${' (Chaussettes)&nbsp;!'}
       ${'Chaussettes  !'}    | ${undefined} | ${undefined} | ${undefined} | ${'Chaussettes &nbsp;!'}
       ${'Chauss|ettes |  !'} | ${undefined} | ${undefined} | ${undefined} | ${'Chauss|ettes&nbsp;| &nbsp;!'}
     `("replaceBefore of ($str) must return '$expected'", ({ str, toReplace, replacer, before, expected }) => {
@@ -80,6 +81,7 @@ describe('Test sre Class', () => {
       ${'Chaussettes !'}     | ${undefined} | ${undefined} | ${undefined} | ${'Chaussettes !'}
       ${'Chaussettes ! '}    | ${undefined} | ${undefined} | ${undefined} | ${'Chaussettes !&nbsp;'}
       ${'Chauss|ettes |  !'} | ${undefined} | ${undefined} | ${undefined} | ${'Chauss|ettes |&nbsp; !'}
+      ${' (Chaussettes) ! '} | ${undefined} | ${undefined} | ${undefined} | ${' (Chaussettes) !&nbsp;'}
     `("replaceAfter of ($str) must return '$expected'", ({ str, toReplace, replacer, after, expected }) => {
       expect(stringReplaceEnhanced.replaceAfter(str, toReplace, replacer, after)).toEqual(expected);
     });
