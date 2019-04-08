@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/artentica/string-replace-enhanced/compare/v1.0.2...v1.0.3) (2019-04-08)
+
+
+### Bug Fixes
+
+* **core:** correct space adding around ( and ) ([7b6e811](https://github.com/artentica/string-replace-enhanced/commit/7b6e811))
+
 ## [1.0.2](https://github.com/artentica/string-replace-enhanced/compare/v1.0.1...v1.0.2) (2019-01-11)
 
 
